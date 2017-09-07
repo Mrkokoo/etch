@@ -1,0 +1,48 @@
+
+
+body {
+    background-color: lightblue;
+}
+
+.header {
+    text-align: center;
+}
+
+.main {
+    width: 70px;
+    height: 70px;
+}
+
+.scetchpad {
+    clear: both;
+    background-color: cyan;
+    /*height: 800px;*/
+    /*width: 800px;*/
+}
+
+.grid {
+    /*border: 1px solid #ccc;*/
+    /*border-width: 1px 0 0 1px;*/
+    background-color: red;
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    margin-top: -5px;
+    z-index: 100;
+}
+
+/*.grid div {*/
+/*    border: 1px solid #ccc;*/
+/*    border-width: 0 1px 1px 0;*/
+/*    float: left;*/
+/*}*/
+
+.gridHover {
+    /*border: 1px solid #ccc;*/
+    /*border-width: 1px 0 0 1px;*/
+    background-color: blue;
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    margin-top: -5px;
+}
